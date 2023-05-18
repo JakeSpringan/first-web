@@ -2,11 +2,60 @@
 <html>
 <head>
   <title>Página web complicada</title>
+  <style>
+    /* Estilos globales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Estilos del encabezado */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    /* Estilos del contenido principal */
+    #content {
+      display: flex;
+    }
+
+    #sidebar {
+      background-color: #f2f2f2;
+      width: 25%;
+      padding: 20px;
+    }
+
+    #main {
+      flex-grow: 1;
+      padding: 20px;
+    }
+
+    /* Estilos del pie de página */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Página web complicada</h1>
+    <h1>Página web complicada</h1>    
   </header>
 
   <div id="content">
@@ -21,6 +70,7 @@
 
     <main id="main">
       <h2>Contenido principal</h2>
+      <img src="https://definicion.de/wp-content/uploads/2009/05/codigo-fuente.jpg" alt="Descripción de la imagen">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit leo a ligula posuere sollicitudin. Maecenas cursus magna quis justo scelerisque, id fermentum ligula pharetra. Sed feugiat posuere lobortis.</p>
       <p>Nullam lacinia est nec urna congue, eu pulvinar metus posuere. In vitae semper tellus. Suspendisse potenti. Fusce ullamcorper consequat eros sed tempus.</p>
     </main>
@@ -31,3 +81,4 @@
   </footer>
 </body>
 </html>
+
